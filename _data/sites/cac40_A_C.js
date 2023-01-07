@@ -1,5 +1,5 @@
 module.exports = {
-	name: "CAC40", // optional, falls back to object key - Liste officielle au 18/12/2022 : https://www.boursier.com/indices/composition/cac-40-FR0003500008,FR.html
+	name: "CAC40_A_C", // optional, falls back to object key - Liste officielle au 18/12/2022 : https://www.boursier.com/indices/composition/cac-40-FR0003500008,FR.html
 	description: "Sites institutionnels des valeurs du CAC40 - A à C",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
