@@ -5,6 +5,7 @@ module.exports = {
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	//skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 	options: {
+		// Lancer la génération manuellement sur netlify par tranche de 10 sites sinon le BUILD ne se fait pas
 		//frequency: 60 * 23, // 24 hours
 		frequency: 1, // 1 mn
 		// Use "run" if the sites don’t share assets on the same origin
@@ -14,16 +15,17 @@ module.exports = {
 		freshChrome: "run"
 	},
 	urls: [
-		"https://www.airliquide.com/fr",
-		"https://www.airbus.com/en",
-		"https://www.alstom.com/fr",
-		"https://france.arcelormittal.com",
-		"https://www.axa.com/fr/",
-		"https://group.bnpparibas",
-		"https://www.bouygues.com",
-		"https://www.capgemini.com/fr-fr/",
-		"https://www.carrefour.com/fr",
-		"https://www.credit-agricole.com",
+		"https://www.danone.com/fr.html",
+		"https://www.3ds.com/fr/",
+		"https://www.engie.com",
+		"https://www.essilor.com/fr/",
+		"https://www.eurofins.com/",
+		"https://www.hermes.com/fr/fr",
+		"https://www.kering.com/fr/",
+		"https://www.legrand.fr",
+		"https://www.loreal.com/fr/",
+		"https://www.lvmh.fr",
+
 
 		
 		
