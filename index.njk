@@ -21,9 +21,11 @@ layout: layout.njk
 	</style>
 	<h3>Commentaires sur la version déployée</h3>
 	<ol>
-		<li>Aucune modification n'a été réalisée sur le code de Zack Leatherman, disponible sur son repo GitHub</li>
+		<li>Aucune modification n'a été réalisée sur le code de Zack Leatherman, disponible sur son repo GitHub (cf. lien ci-dessus)</li>
 		<li>Les URL des sites référencés sont totalement publiques</li>
 		<li>Les mesures effectuées peuvent évoluer dans le temps, en fonction des outils de mesure fournis par Google ainsi que de la qualité du code délivré par les entreprises</li>
+		<li>Le site Hermes n'est pas pris en compte suite à une 'protection' mise en oeuvre contre les 'robots'</li>
+		<li>Le score maximum est de 400, sachant qu'un score inférieur à 360 se doit d'être amélioré</li>
 	</ol>
 </div>
 {% endstarterMessage %}
@@ -47,4 +49,23 @@ layout: layout.njk
 		{%- endif %}
 	{%- endfor %}
 	</tbody>
+</table>
+<table class="leaderboard leaderboard-list">
+	<caption>Classement établi le {{page.date.toLocaleString("fr-FR")}}</caption>
+	<tbody>
+	{% for item in ranking_sorted %}
+
+		{%- if item.score %}
+		<tr>
+			<td>#{{loop.index}}</td>
+    		<td>{{ item.valeur }}</td>
+			<td>{{ item.score }}</td>	
+		</tr>
+
+		{%- endif %}
+
+    {% endfor %}
+	</tbody>
+
+
 </table>
