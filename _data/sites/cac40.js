@@ -3,8 +3,7 @@ module.exports = {
 	description: "Sites institutionnels - CAC40",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
-	//skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
-	skip: false,
+	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 	options: {
 		//frequency: 60 * 23, // 24 hours
 		frequency: 1, // 1 mn
