@@ -15,7 +15,16 @@ module.exports = {
 	},
 	urls: [
 		"https://www.airliquide.com/fr",
-		
+		"https://www.airbus.com/en",
+		"https://www.alstom.com/fr",
+		"https://france.arcelormittal.com",
+		"https://www.axa.com/fr/",
+		"https://group.bnpparibas",
+		"https://www.bouygues.com",
+		"https://www.capgemini.com/fr-fr/",
+		"https://www.carrefour.com/fr",
+		"https://www.credit-agricole.com",
+
 		
 		
 
