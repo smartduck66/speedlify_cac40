@@ -5,9 +5,9 @@ module.exports = {
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	//skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 	options: {
-		// Lancer la génération manuellement sur netlify par tranche de 10 sites sinon le BUILD ne se fait pas
-		//frequency: 60 * 23, // 24 hours
-		frequency: 1, // 1 mn
+		// Lancer le build sur netlify par tranche de 10 sites sinon le BUILD ne se fait pas (retry with latest commit branch)
+		frequency: 60 * 23, // 24 hours
+		//frequency: 1, // 1 mn
 		// Use "run" if the sites don’t share assets on the same origin
 		//           and we can reset chrome with each run instead of
 		//           each site in every run (it’s faster)
