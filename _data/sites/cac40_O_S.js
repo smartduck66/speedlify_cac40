@@ -1,6 +1,6 @@
 module.exports = {
 	name: "CAC40", // optional, falls back to object key - Liste officielle au 18/12/2022 : https://www.boursier.com/indices/composition/cac-40-FR0003500008,FR.html
-	description: "Sites institutionnels - CAC40",
+	description: "Sites institutionnels des valeurs du CAC40 - O à S",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	//skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
@@ -15,22 +15,16 @@ module.exports = {
 		freshChrome: "run"
 	},
 	urls: [
-		"https://www.airliquide.com/fr",
-		"https://www.airbus.com/en",
-		"https://www.alstom.com/fr",
-		"https://france.arcelormittal.com",
-		"https://www.axa.com/fr/",
-		"https://group.bnpparibas",
-		"https://www.bouygues.com",
-		"https://www.capgemini.com/fr-fr/",
-		"https://www.carrefour.com/fr",
-		"https://www.credit-agricole.com",
-
-
-
-
-		
-		
-
+		"https://www.orange.com/fr",
+		"https://www.pernod-ricard.com/fr",
+		"https://www.publicisgroupe.com/fr",
+		"https://www.renaultgroup.com",
+		"https://www.safran-group.com/fr",
+		"https://www.saint-gobain.com/fr",
+		"https://www.sanofi.fr/fr/",
+		"https://www.se.com/fr/fr/",
+		"https://www.societegenerale.com/fr",
+		"https://www.stellantis.com/fr",
+		"https://www.st.com/content/st_com/en.html",
 	]
 };
