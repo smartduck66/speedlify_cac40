@@ -10,6 +10,19 @@
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
+		{% if env.isProd %}
+    		<script 
+				async src="https://www.googletagmanager.com/gtag/js?id=G-MN366W1XX4">
+    		</script>
+    		<script>
+      			window.dataLayer = window.dataLayer || [];
+      			function gtag() {
+        			dataLayer.push(arguments);
+      			}
+      			gtag('js', new Date());
+     			gtag('config', 'G-MN366W1XX4');
+    		</script>
+  		{% endif %}
 	</head>
 	<body>
 		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
