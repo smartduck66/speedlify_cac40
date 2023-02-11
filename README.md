@@ -49,3 +49,11 @@ Speedlify is intended as a stepping stone to more robust performance monitoring 
 * [SpeedCurve](https://speedcurve.com/)
 * [Calibre](https://calibreapp.com/)
 * [DebugBear](https://www.debugbear.com/)
+
+## Processus à suivre pour la mise à jour mensuelle des valeurs
+## ------------------------------------------------------------
+* Lancer les 4 tranches de build à partir de la console de netlify en PROD, en repartant du dernier build (OPTIONS/Retry with latest branch commit) - Environ 45mns
+* Modifier le fichier Excel "scores_cac40.xlsx", en LOCAL, avec les nouvelles valeurs calculées (pour conserver un historique)
+* Reporter également les nouvelles valeurs calculées dans le fichier ranking.json, en LOCAL, ce qui permettra une mise à jour automatique de la page index.njk
+* Lancer GO.BAT, en LOCAL, pour mise à jour du repo GitHub qui va lui-même relancer un build du site SANS toutefois les valeurs Lighthouse CAC40 déjà calculées
+* Tester le site en live, en PROD
