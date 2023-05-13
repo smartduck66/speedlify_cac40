@@ -64,6 +64,8 @@ Speedlify is intended as a stepping stone to more robust performance monitoring 
 * Si le build ne fonctionne plus, il faut vérifier que le code du repo zachleat/speedlify n'a pas évolué (cela a été le cas en mai 2023)
 * Comme la commande git pull zachleat/speedlify n'a pas fonctionné pour récupérer SEULEMENT les fichiers modifiés (pb de droits), j'ai donc cloné le repo et recopié "à la main" les fichiers récents (ex : .eleventy.js, package.json)
 * Ensuite, j'ai relancé un npx npm-check-updates -u pour remettre à jour l'ensemble des modules NPM
-* Enfin, un go.bat a remis à jour le répertoire gitHub et cela a relancé automatiquement un build sur Netlify
+* Enfin, un GO.bat a remis à jour le répertoire gitHub et cela a relancé automatiquement un build sur Netlify
+* Un bug bloquant la génération m'a toutefois forcé à remplacer {% include "../node_modules/chartist/dist/chartist.css" %} par {% include "../node_modules/chartist/dist/index.css" %} dans le fichier '/assets/css.njk'
+* A noter qu'un bug persiste car le bouton "data and graphs" ne donne plus accès à l'historique (MAJ chartist ?)
 
  

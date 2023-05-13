@@ -18,7 +18,7 @@ module.exports = {
 		"https://www.danone.com/fr.html",
 		"https://www.3ds.com/fr/",
 		"https://www.engie.com",
-		"https://www.essilor.com/fr/",
+		"https://www.essilorluxottica.com/fr",
 		"https://www.eurofins.com/",
 		"https://www.hermes.com/fr/fr",
 		"https://www.kering.com/fr/",
