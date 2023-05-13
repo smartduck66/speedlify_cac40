@@ -57,3 +57,4 @@ Speedlify is intended as a stepping stone to more robust performance monitoring 
 * Reporter également les nouvelles valeurs calculées dans le fichier ranking.json, en LOCAL, ce qui permettra une mise à jour automatique de la page index.njk
 * Lancer GO.BAT, en LOCAL, pour mise à jour du repo GitHub qui va lui-même relancer un build du site SANS toutefois les valeurs Lighthouse CAC40 déjà calculées
 * Tester le site en live, en PROD
+* Modifier la page "Projets" sur www.andretonic.fr en indiquant la date de la dernière MAJ et le nouveau tiercé gagnant dans le texte du billet
