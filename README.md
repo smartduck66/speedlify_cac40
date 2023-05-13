@@ -58,3 +58,12 @@ Speedlify is intended as a stepping stone to more robust performance monitoring 
 * Lancer GO.BAT, en LOCAL, pour mise à jour du repo GitHub qui va lui-même relancer un build du site SANS toutefois les valeurs Lighthouse CAC40 déjà calculées
 * Tester le site en live, en PROD
 * Modifier la page "Projets" sur www.andretonic.fr en indiquant la date de la dernière MAJ et le nouveau tiercé gagnant dans le texte du billet
+
+## Mise à jour du code de Zach - 13 mai 2023
+## -----------------------------------------
+* Si le build ne fonctionne plus, il faut vérifier que le code du repo zachleat/speedlify n'a pas évolué (cela a été le cas en mai 2023)
+* Comme la commande git pull zachleat/speedlify n'a pas fonctionné pour récupérer SEULEMENT les fichiers modifiés (pb de droits), j'ai donc cloné le repo et recopié "à la main" les fichiers récents (ex : .eleventy.js, package.json)
+* Ensuite, j'ai relancé un npx npm-check-updates -u pour remettre à jour l'ensemble des modules NPM
+* Enfin, un go.bat a remis à jour le répertoire gitHub et cela a relancé automatiquement un build sur Netlify
+
+ 
