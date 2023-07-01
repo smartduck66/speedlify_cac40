@@ -21,7 +21,6 @@ module.exports = {
 		"https://www.urw.com/fr-FR",
 		"https://www.veolia.com/fr",
 		"https://www.vinci.com",
-		"https://www.vivendi.com",
 		"https://fr.worldline.com/fr/home.html",
 	]
 };
