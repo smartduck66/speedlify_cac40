@@ -2,23 +2,23 @@
         [
             {
                 "valeur": "AIR LIQUIDE",
-                "score": 325
+                "score": 300
             },
             {
                 "valeur": "AIRBUS GROUP",
-                "score": 347
+                "score": 338
             },
             {
                 "valeur": "ALSTOM",
-                "score": 307
+                "score": 314
             },
             {
                 "valeur": "ARCELORMITTAL",
-                "score": 390
+                "score": 376
             },
             {
                 "valeur": "AXA",
-                "score": 308
+                "score": 317
             },
             {
                 "valeur": "BNP PARIBAS",
@@ -26,7 +26,7 @@
             },
             {
                 "valeur": "BOUYGUES",
-                "score": 338
+                "score": 333
             },
             {
                 "valeur": "CAPGEMINI",
@@ -34,63 +34,63 @@
             },
             {
                 "valeur": "CARREFOUR",
-                "score": 298
+                "score": 302
             },
             {
                 "valeur": "CREDIT AGRICOLE",
-                "score": 308
-            },
-            {
-                "valeur": "DANONE",
                 "score": 310
             },
             {
+                "valeur": "DANONE",
+                "score": 316
+            },
+            {
                 "valeur": "DASSAULT SYSTEMES",
-                "score": 325
+                "score": 322
             },
             {
                 "valeur": "EDENRED",
-                "score": 299
+                "score": 313
             },
             {
                 "valeur": "ENGIE",
-                "score": 307
+                "score": 311
             },
             {
                 "valeur": "ESSILORLUXOTTICA",
-                "score": 342
+                "score": 347
             },
             {
                 "valeur": "EUROFINS SCIENTIFIC",
-                "score": 330
+                "score": 323
             },
             {
                 "valeur": "KERING",
-                "score": 299
+                "score": 314
             },
             {
                 "valeur": "LEGRAND",
-                "score": 330
+                "score": 329
             },
             {
                 "valeur": "L'OREAL",
-                "score": 318
+                "score": 297
             },
             {
                 "valeur": "LVMH",
-                "score": 277
+                "score": 291
             },
             {
                 "valeur": "MICHELIN",
-                "score": 306
+                "score": 308
             },
             {
                 "valeur": "ORANGE",
-                "score": 353
+                "score": 346
             },
             {
                 "valeur": "PERNOD RICARD",
-                "score": 358
+                "score": 364
             },
             {
                 "valeur": "PUBLICIS",
@@ -98,27 +98,27 @@
             },
             {
                 "valeur": "RENAULT",
-                "score": 319
+                "score": 331
             },
             {
                 "valeur": "SAFRAN",
-                "score": 356
+                "score": 360
             },
             {
                 "valeur": "SAINT-GOBAIN",
-                "score": 349
+                "score": 336
             },
             {
                 "valeur": "SANOFI",
-                "score": 293
+                "score": 302
             },
             {
                 "valeur": "SCHNEIDER ELECTRIC",
-                "score": 351
+                "score": 331
             },
             {
                 "valeur": "SOCIETE GENERALE",
-                "score": 275
+                "score": 289
             },
             {
                 "valeur": "STELLANTIS",
@@ -126,35 +126,35 @@
             },
             {
                 "valeur": "STMICROELECTRONICS",
-                "score": 260
+                "score": 261
             },
             {
                 "valeur": "TELEPERFORMANCE",
-                "score": 304
+                "score": 314
             },
             {
                 "valeur": "THALES",
-                "score": 287
+                "score": 292
             },
             {
                 "valeur": "TOTALENERGIES",
-                "score": 338
+                "score": 342
             },
             {
                 "valeur": "UNIBAIL-RODAMCO-WESTFIELD",
-                "score": 313
+                "score": 320
             },
             {
                 "valeur": "VEOLIA ENVIRONNEMENT",
-                "score": 285
+                "score": 279
             },
             {
                 "valeur": "VINCI",
-                "score": 385
+                "score": 391
             },
             {
                 "valeur": "WORLDLINE",
-                "score": 331
+                "score": 316
             }
             
         ]
